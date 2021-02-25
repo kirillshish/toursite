@@ -1,0 +1,1418 @@
+/* Start - V_Main.php */
+html,body{
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h1,h2,h3,h4,h5{
+    margin: 0px;
+    padding:0px;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    word-wrap: break-word;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    display: flex;
+    width: 1220px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar_a{
+    display: flex;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_a_unsigned{
+    display: flex;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+.navbar_a_unsigned:hover{
+    display: flex;
+    border-radius: 5px;
+    background-color: #e95d3c;
+    color: white;
+}
+.navbar_a:hover{
+    display: flex;
+    border-radius: 5px;
+    background-color: #e95d3c;
+    color: white;
+}
+#logo_text{
+    font-weight: 800;
+    font-size: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 auto;
+    background-color: #272727;
+    color: #aaaaaa;
+    font-weight: 300;
+    height: 90px;
+    justify-content: center;
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 20%;
+    
+}
+/* End - V_Main.php */
+
+/* Start - V_Index.php */
+#banner{
+    display: flex;  
+    width: 100%;
+    height: 300px;
+    background-image: url('/v/img/6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.fixedcontainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+.info{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+    align-items:center;
+}
+.info_big_text{
+    font-weight: 500;
+    font-size: 25px;
+}
+.info_small_text{
+    font-weight: 100;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+.index_info_button_first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 62px;
+    color: white;
+}
+.index_info_button_second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 43px;
+    color: white;
+}
+.index_info_button_third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 24px;
+    color: white;
+}
+.index_info_button_fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top:43px;
+    color: white;
+}
+.notecontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    height: 100%;
+    justify-content: center;
+}
+.notes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-around;
+}
+.note{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    margin: 20px;
+}
+.note:hover{
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+}
+.notesinfo{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+}
+#href_notes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top:43px;
+    color: white;
+}
+.note_img{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.note_content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 100%;   
+}
+#hr_index_notes{
+    background-color: #f0907a;
+    width: 2px;
+    height: 280px;
+    border: none;
+}
+.up_note_content{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+}
+.up_note_p{
+    display: flex;
+    font-weight: 800;
+    font-size: 19px;
+}
+.mid_note_content{
+    display: flex;
+    flex: 1 0 auto;
+}
+.bot_note_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    margin-right: 2px;
+}
+#up_note_place{
+    color: rgb(136, 136, 136);
+}
+#bot_note_cost{
+    margin-right: 5px;
+    font-weight: 800;
+    color: #e95d3c;
+}
+/* End - V_Index.php */
+/* Start - V_About.php */
+.about_container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+.about_company{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.about_company_maintext{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    margin-top: 120px;
+}
+#vertical_about_text{
+    height: 315px;
+    width: 5%;
+    background-color:  #f0907a;
+    border: none;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.about_name{
+    display: flex;
+}
+.about_text{
+    display: flex;
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+}
+.about_text_block{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.about_contacts{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+}
+.contact_block{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    box-sizing: border-box;
+    width: 300px;
+    height: 330px;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+}
+.about_contacts_title{
+    display: flex;
+    font-weight: 400;
+    font-size: 25px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+#hr_contacts{
+    width: 70%;
+    justify-content: center;
+    background-color: #f0907a;
+    border: none;
+    height: 1px;
+}
+.about_contacts_phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_contacts_media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about_contacts_media h3{
+    margin-top: 10px;
+}
+.about_contacts_media_second{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+/* End - V_About.php */
+/* Start - V_Tours.php */
+.tours_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+}
+.tour_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tour_notes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.tour_notes{
+    color: rgb(110, 110, 110);
+}
+.actual_tours{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.expired_tours{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.tour_notes_p{
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(110, 110, 110);
+    margin-top: 10px;
+}
+/* End - V_Tours.php */
+/* Start - V_Reviews.php */
+.reviews_container_unsigned{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.reviews_container{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.make_review{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+    width:30%;
+    height: 550px;
+    align-items: center;
+    border-radius: 20px;
+}
+#make_review_form{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+.review_input_form{
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 20px;
+    height: 30px;
+    margin-top: 10px;
+    width: 130px;
+    outline: none;
+}
+#make_review_form textarea{
+    display: flex;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    outline: none;
+}
+.make_review h3{
+    margin-top: 10px;
+}
+.review_submit_form{
+    display: flex;
+    flex-direction: column;
+    background-color:#e95d3c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    outline: none;
+}
+#review_horizontal_hr{
+    border: none;
+    background-color: #f0907a;
+    width: 60%;
+    height: 2px;
+}
+.review:hover{
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+}
+.left_side_review{
+    display: flex;
+    width: 15%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.right_side_review{
+    display: flex;
+    width: 85%;
+    padding-left: 20px;
+}
+.review_mini_profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#review_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#review_name{
+    font-weight: 800;
+}
+#review_date{
+    color: #aaaaaa;
+}
+.review_content_title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#review_place{
+    color: #aaaaaa;
+    padding-right: 35px;
+}
+#review_hotel{
+    font-weight: 800;
+    font-size: 22px;
+}
+#review_text{
+    margin-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+/* End - V_Reviews.php */
+/* Start - V_Request.php */
+.request_container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    height: 100%;
+}
+.admin_request_container{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    justify-content: center;
+    height: 100%;
+}
+.headers{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+#h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.make_request{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    padding-top: 30px;
+}
+.show_requests{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    align-items: center;   
+}
+.show_bookings{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    align-items: center;   
+}
+.request_form{
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+#request_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+    border-radius: 10px;
+}
+#request_form h1{
+    padding-top: 20px;
+}
+.first_request_input{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    height: 25px;
+}
+.request_input{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    outline: none;
+    height: 25px;
+    margin-top: 20px;
+}
+#request_input_select{
+    margin-top: 20px;
+    border-radius: 5px;
+    color: rgb(122, 122, 122);
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    outline: none;
+    height: 30px;
+    width: 163px;
+}
+.request_textarea{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    height: 100px;
+}
+.request_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+}
+#request_horizontal_hr{
+    width: 70%;
+    justify-content: center;
+    background-color: #f0907a;
+    border: none;
+    height: 1px;
+}
+.request_info{
+    display: flex;
+    flex-direction: row;
+    font-weight: 300;
+    color: rgb(175, 174, 174);
+    width: 90%;
+    margin-bottom: 20px;
+}
+.errors_request{
+    color: rgb(175, 174, 174);
+}
+.request{
+    display: flex;
+    flex-direction: row;
+    width:320px;
+    height: 45px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.booking{
+    display: flex;
+    flex-direction: row;
+    width:320px;
+    height: 45px;
+    padding-left: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.request_content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+    width: 70%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.request_content:hover{
+    border: 1px solid white;
+}
+.href_cross{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 10px;
+    height: 9px;
+}
+.strong_span{
+    font-weight: 800;
+    color: #e95d3c;
+}
+/* End - V_Request.php */
+/* Start - V_Reg.php */
+.reg_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    align-items: center;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 40px;
+}
+.registration form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+#h1_reg{
+    padding-top: 10px;
+}
+.reg_input{
+    margin-top: 22px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 20px;
+    height: 20px;
+    outline: none;
+}
+#reg_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+.auth_reg{
+    color: rgb(131, 131, 131);
+}
+/* End - V_Reg.php */
+/* Start - V_Auth.php */
+.auth_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    align-items: center;
+}
+.authorization{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 40px;
+    text-align: center;
+}
+.authorization p{
+    display: flex;
+    width: 60%;
+    padding-top: 40px;
+    color: rgb(131, 131, 131);
+
+}
+.authorization form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+.authorization form input{
+    outline: none;
+}
+#auth_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e95d3c;
+    border: none;
+    width: 165px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+/* End - V_Auth.php */
+/* START - USER*/
+#vertical_main_hr{
+    width: 2px;
+    height: 80px;
+    background-color:#f0907a;
+    border: none;
+    margin-left: 20px;
+}
+.navbar_a_profile{
+    display: flex;
+    flex-direction: row;
+}
+.main_profile{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.main_profile_navbar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+#mini_profile_img{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+#mini_profile_second_img{
+    width: 30px;
+    margin-left: 10px; 
+}
+.mini_cart{
+    display: flex;
+}
+/* Start - V_Profile.php */
+.profile_container{
+    display: flex;
+    flex-direction: row;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    padding-top: 20px;
+}
+.edit_profile_information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+.edit_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile_img{
+    width:150px;
+    height: 150px;
+    border: 1px solid #e95d3c;
+    border-radius: 50%;
+}
+#profile_horizontal_hr{
+    width: 60%;
+    justify-content: center;
+    background-color: #f0907a;
+    border: none;
+    height: 2px;
+    margin-top: 20px;
+}
+.edit_profile_img{
+    width: 420px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#edit_profile_submit{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    background-color:#e95d3c ;
+    color: white;
+    height: 30px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.edit_input_profile_info{
+    display: flex;
+    border: 1px solid #f0907a;
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+.profile_container p{
+    color: rgb(59, 59, 59);
+}
+.pay_text p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.payment_text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.payment_text p{
+    color: rgb(121, 121, 121);
+}
+.profile_cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.goods.cart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100%;
+    border: 1px solid black;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+}
+.good{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 130px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.good_img{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    overflow: hidden;
+    border-top-left-radius: 4px;
+}
+#profile_delete_from_cart{
+    display: flex;
+    flex-direction: row;
+    background-color: #e95d3c;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px;
+}
+.payment_form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+    margin-top: 45px;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+#orders_horizontal_hr{
+    width: 80%;
+    height: 1.5px;
+    border: none;
+    background-color:#e95d3c;
+}
+.payment_form h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.tour_order{
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.pay_text{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    margin-top: 180px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pay_text p{
+    color: #7e7e7e;
+}
+.pay_button{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #e95d3c;
+    color: white;
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+/* End - V_Profile.php */
+/* Start - V_Product.php */
+.product_container{
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.product_img{
+    border: 1px solid #e95d3c;
+    outline: none;
+    width: 200px;
+    height: 200px;
+}
+.product_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product_hotel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.product_cost{
+    display: flex;
+    flex-direction: row;
+    color: #e95d3c;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.product_upload_date{
+    color: rgb(136, 136, 136);
+    margin-top: 80px;
+}
+#vertical_product_hr{
+    background-color: #f0907a;
+    width: 400px;
+    border: none;
+    height: 2px;
+}
+#add_to_cart_button{
+    display: flex;
+    color: white;
+    background-color: #e95d3c;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    outline: none;
+    margin-bottom: 30px;
+}
+/* End - V_Product.php */
+/* Start - V_Product_Request.php */
+.product_request_container{
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 100%;
+}
+.product_request_content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+.req_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info_req{
+    font-weight: 800;
+    font-size: 20px;
+}
+.info_req_date{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.product_request_info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+.product_request_info_booking{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.info_req_date_user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #7e7e7e;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 250px;
+}
+.product_request_status{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+#request_pp{
+    word-break: break-all;
+}
+/* End - V_Product_Request.php */
+/* END - USER*/
+/* START - ADMIN*/
+.tour_href{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.href_t{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: #e95d3c;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.tours_href{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+.tours_href_tour{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #e95d3c;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+/* Start - Admin_Create*/
+.admin_product_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1220px;
+    align-items: center;
+    height: 100%;
+}
+.admin_product_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.admin_product_hotel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.admin_product_place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.admin_product_nights{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.admin_product_flight_dates{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.admin_product_cost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.create_input{
+    display: flex;
+    border: 1px solid #f0907a;
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    outline: none;
+    margin-top: 5px;
+}
+.admin_tours_href{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e95d3c;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+/* End - Admin_Create*/
+/* Start - Admin_Reviews*/
+.admin_reviews{
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 50%;
+}
+.admin_review{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.admin_simple_review{
+    display: flex;
+    flex-direction: row;
+    width:700px;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 1px solid rgb(226, 226, 226);
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.admin_simple_review:hover{
+    box-shadow: 0 0 10px rgba(189, 189, 189);
+}
+#h1_reviews{
+    display: flex;
+    justify-content: center;
+}
+#review_button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    background-color: #e95d3c;
+    width: 300px;
+    height: 30px;
+}
+#review_button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: #e95d3c;
+    width: 300px;
+    height: 30px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.priority_reviews{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+#review_check{
+    display: flex;
+    background-color: #e95d3c;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+/* End - Admin_Reviews*/
+/* END - ADMIN*/
+
